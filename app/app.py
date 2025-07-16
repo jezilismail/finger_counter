@@ -5,6 +5,9 @@ from math import sqrt
 import numpy as np
 import time
 
+import os
+os.system('pip install opencv-python-headless')
+
 # Utility functions
 def get_distance(pt1, pt2):
     x1, y1, z1 = pt1
